@@ -5,7 +5,8 @@ setup(name='df-tools',
         # packages=['tools'],
         entry_points={
             'console_scripts': [
-                'showdf = showdf:main',
+                'showdf = show_df:main',
+                'statdf = stat_df:main',
                 'cmpdf = cmp_df:main',
                 'latexdf = latex_df:main',
                 ]
