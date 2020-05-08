@@ -2,7 +2,15 @@
 
 Convenient commandline scripts for working with dataframes in csv files.
 
-Usage:
+## Install:
+
+```bash
+git clone git@github.com:gryan11/dftools.git
+cd dftools
+pip install .
+```
+
+## Usage:
 ```bash
 showdf <csv-file>
 statdf <csv-file>
