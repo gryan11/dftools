@@ -11,4 +11,7 @@ setup(name='df-tools',
                 'latexdf = latex_df:main',
                 ]
             },
+        install_requires=[
+            'pandas',
+            ]
         )
