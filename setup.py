@@ -5,10 +5,10 @@ setup(name='df-tools',
         # packages=['tools'],
         entry_points={
             'console_scripts': [
-                'showdf = show_df:main',
-                'statdf = stat_df:main',
-                'cmpdf = cmp_df:main',
-                'latexdf = latex_df:main',
+                'showdf = dftools.show_df:main',
+                'statdf = dftools.stat_df:main',
+                'cmpdf = dftools.cmp_df:main',
+                'latexdf = dftools.latex_df:main',
                 ]
             },
         install_requires=[
