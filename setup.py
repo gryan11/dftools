@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='df-tools',
         version='1.0.0',
-        # packages=['tools'],
+        packages=['dftools'],
         entry_points={
             'console_scripts': [
                 'showdf = dftools.show_df:main',
